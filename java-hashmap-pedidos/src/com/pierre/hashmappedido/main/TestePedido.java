@@ -17,7 +17,7 @@ public class TestePedido {
 		String senha = JOptionPane.showInputDialog("admin");
 
 		if (login.equals("admin") && senha.equals("admin")) {
-			JOptionPane.showMessageDialog(null, "Acesso Liberado");
+			JOptionPane.showMessageDialog(null, "Acesso Liberado0");
 			
 			Pedido pedido01 = new Pedido("Marcos", "ENTREGUE", 150.53, 1012);
 			Pedido pedido02 = new Pedido("Luana", "ENVIADO", 301.98, 1023);
